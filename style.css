@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Tajawal:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #575756;
+    font-family: 'Changa', sans-serif;
+}
+
+img.logo_img {
+    position: absolute;
+    top: -4em;
+    width: 24em;
+    display: flex;
+    justify-content: center;
+    left: 30em;
+}
+
+.logo_img_respon{
+
+    display: none;
+
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .burger div{
+      width: 25px;
+      height: 5px;
+      background-color: white;
+      margin: 3px;
+  
+  }
+
+  .nav_a_js{
+    display: none;
+  }
+
+
+
+.img_hedar{
+    width: 100%;
+    height: 30em;
+    /* filter: grayscale(100%); */
+  
+}
+
+.nav_{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+    background-color: rgba(0,0,0, 0.4);
+    position: relative;
+    margin-top: -23em;
+    border-radius: 2em;
+}
+
+
+
+
+.nav_a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    margin-top:3em;
+}
+
+.slogan__{
+
+ font-size: 25px;
+ font-weight: bold;
+ color: antiquewhite;
+ background-color: rgba(0,0,0, 0.4);
+ padding: 2em;
+ border-radius: 2em;
+
+}
+
+.slogan__title{
+    margin-right: 87px;
+    color: yellow;
+}
+
+.form-group{
+    margin:1em;
+    display: flex;
+    justify-content: center;
+}
+
+.name_label{
+    color: yellow;
+    font-size: 25px;
+    position: absolute;
+    top:420px;
+    font-weight: bold;
+
+}
+
+.label_inbut{
+    border: 1px;
+    border-radius: 4em;
+    width: 40%;
+    padding: 8px;
+    margin-top: -26px;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.slogan_two{
+    text-align: center;
+    margin-top: 2em;
+    color:aliceblue;
+    border: 1px;
+    background-color: #343c39;
+    border-radius: 2em;
+}
+.way_us{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin:1em
+}
+
+.way_us p{
+    color: antiquewhite;
+    margin-top: -3em;
+    padding: 4em;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.why_us_image{
+    width: 70%;
+    margin-right: 10em;
+    border-radius: 1em;
+}
+
+.services_title{
+    text-align: center;
+    margin-top: -49px;
+    color:aliceblue;
+    border: 1px;
+    background-color: #343c39;
+    border-radius: 2em;
+
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1em; 
+}
+
+
+
+.card_services{
+    background-color: #1d1c1a ;
+    margin: 1em;
+    border-radius: 1em;
+    height: 29em;
+}
+
+.card_services img{
+    width: 100%;
+    border-radius: 1em;
+    height: 12em;
+}
+
+.title h2{
+    text-align: center;
+    margin-top: 18px;
+    color:aliceblue;
+    font-size: 21px;
+}
+.text h3{
+    text-align: center;
+    margin-top: 26px;
+    font-size: 21px;
+    color:aliceblue;
+}
+
+hr{
+    color: aliceblue;
+}
+
+.why_us_title{
+    text-align: center;
+    color:aliceblue;
+    border: 1px;
+    background-color: #343c39;
+    border-radius: 2em;
+}
+
+.about_us_title{
+    text-align: right;
+    margin: 1em;
+    color: aliceblue;
+    background-color: #343c39;
+    width: 8em;
+    border-radius: 1em;
+    padding: 8px;
+
+}
+
+.about_us{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1em; 
+}
+
+.about_us img{
+    border-radius: 1em;
+    margin-top: -4em;
+    height: 20em;
+    margin-right: 8em;
+}
+
+ul{
+    list-style: none;
+}
+
+.about_us_content{
+    margin: 3em;
+    font-size: 20px;
+    color:aliceblue
+}
+
+.form_container{
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1em; 
+}
+
+textarea{
+    width: 100%;
+}
+
+
+.area{
+    margin-top: 7em;
+    margin-right: -19em;
+}
+
+
+.img_contact{
+    width: 100%;
+    margin-right: -16px;
+    margin-top: 1em;
+    height: 22em;
+    border-radius: 1em;
+}
+
+
+
+.send{
+    margin-right: 220px;
+    width: 13em;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.price_title{
+    text-align: center;
+    color:aliceblue;
+    border: 1px;
+    background-color: #343c39;
+    border-radius: 2em;
+    margin-top:1em;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    margin:2em;
+}
+
+.card-body{
+    background-image: linear-gradient(#414141, #000000);
+}
+
+.card-title{
+    font-size: 25px;
+    color: aliceblue;
+    background-color: #f39200;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.card-text{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+
+
+/* =========================Services Page Style========================================= */
+
+.services_page{
+    margin-top: 3em;
+}
+
+
+/* ==============================About Us Page========================================== */
+.about_us_page_title{
+    text-align: center;
+    margin-top: 97px;
+    color:aliceblue;
+    border: 1px;
+    background-color: #343c39;
+    border-radius: 2em;   
+}
+
+.about_us-title p{
+    color: aliceblue;
+    margin: 1em;
+    border-radius: 10em;
+    background-color: black;
+    padding: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.about_us_invotion{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1em;
+    background-color: #000000;
+    border-radius: 4em;
+    border-bottom-left-radius: 0em;
+    margin: 2em;
+}
+
+.about_us_invotion span{
+    color:yellow
+}
+
+
+.about_us_invotion h2{
+    color: aliceblue;
+    margin: 2em;
+    margin-top: 3em;
+    border-radius: 10em;
+    background-color: black;
+    padding: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.about_us_invotion img{
+  border-radius: 2em;
+}
+ 
+.about_us_page_vision{
+    text-align: center;
+    margin-top: 24px;
+    color:aliceblue;
+    border: 1px;
+    background-color: #343c39;
+    border-radius: 2em;  
+}
+
+
+.stratgy-para p{
+    color: aliceblue;
+    margin: 1em;
+    border-radius: 10em;
+    background-color: black;
+    padding: 3em;
+    border-bottom-left-radius: 1em;
+}
+
+
+
+.our_vision{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1em;
+    background-color: #000000;
+    border-radius: 4em;
+    border-bottom-left-radius: 0em;
+    margin: 2em;
+}
+
+.our_vision p{
+    color: aliceblue;
+    margin-top: 6em;
+    margin-right: 43px;
+}
+
+.our_vision img {
+    width: 100%;
+} 
+/* =====================================Login Page style============================== */
+
+.contaniner_login{
+    margin-top:1em;
+
+}
+
+.lgoin_page_title{
+    text-align: center;
+    margin-top: 97px;
+    color:aliceblue;
+    border: 1px;
+    background-color: #343c39;
+    border-radius: 2em;  
+}
+
+.submit_button{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    gap: 3em;
+}
+
+
+
+/* =====================Responsive===================================================== */
+
+
+@media  screen and (max-width:767px){
+
+    .img_hedar{
+        max-width: 100%;
+        height: auto;
+      
+    }
+
+    .nav_{
+    position: absolute;
+    right: -4em;
+    width: 110%;
+    background-color: #343c39;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    border-radius: 1em;
+    top: 23em;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    }
+
+.logo_img{
+   display: none;
+}
+
+.logo_img_respon{
+    position: absolute;
+    display: flex;
+    top: 0em;
+    left: 13em;
+    width: 13em;
+}
+
+.nav_a{
+    margin-top: 6px;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.burger{
+    display: block;
+    margin-top: -13em;
+    margin-right: 20em;
+    font-size: 17px;
+    position: relative;
+    color: white;
+        
+    }
+
+    .nav_a_js{
+        display: flex;
+        font-size: 25px;
+       margin-right: -8em;
+       margin-top: -1em;
+    }
+
+    .nav_active{
+        transform: translateX(0);
+     }
+
+
+
+    .slogan__ {
+    font-size: 20px;
+     padding: 1em;
+}
+
+.label_inbut{
+    width: 80%;
+}
+
+.name_label{
+    top: 14em;
+    font-size: 18px;
+}
+
+.text_deco1{
+    width: 58%;
+    margin-right: 6em;
+}
+
+.way_us p{
+    width: 100%;
+    padding: 0em;
+    margin-top: 0em;
+    margin-right: 0px;
+}
+
+.why_us_image{
+    width: 100%;
+    margin-right: 0;
+}
+.services_title{
+    margin-top:72px;
+}
+
+.about_us img{
+    width: 100%;
+    margin-right: 0;
+    padding: 1em;
+    border-radius: 4em;
+}
+
+.about_us_content{
+    font-size: 15px;
+    margin-top: 0em;
+}
+
+.send{
+    margin-right: 98px;
+}
+
+.img_contact{
+    margin-right: 0;
+    padding: 1em;
+    border-radius: 3em;
+}
+
+.card-title{
+    font-size: 19px;
+    
+}
+
+.card-text{
+    font-size: 16px;
+    
+}
+
+/* ==================================about us responsive */
+
+.about_us-title p{
+    padding: 47px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.about_us_invotion h2{
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 3em;
+}
+
+.about_us_invotion img{
+    width: 100%;
+    margin-top: -3em;
+}
+
+.stratgy-para p{
+    padding: 4em;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.our_vision img{
+    width: 100%;
+}
+
+.our_vision{
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+}
+
+
+
